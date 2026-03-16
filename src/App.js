@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import {React,Component} from 'react';
-import './component/Counter'
 import Counter from './component/Counter';
+import Form from './component/Form'
 // import Todo from './component/Todo';
 // function App() {
 //   return (
@@ -36,7 +36,8 @@ class App extends Component{
   render(){
     return(
     <div className='App'>
-      <Counter />
+      <Counter />,
+      <Form />
     </div>
     // use <></> or div becuase return only one root element .
     )
