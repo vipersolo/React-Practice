@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import {React,Component} from 'react';
+import {react,Component} from 'react';
 import Counter from './component/Counter';
 import Form from './component/Form'
+import List from './component/List'
 // import Todo from './component/Todo';
 // function App() {
 //   return (
@@ -38,6 +39,7 @@ class App extends Component{
     <div className='App'>
       <Counter />,
       <Form />
+      <List />
     </div>
     // use <></> or div becuase return only one root element .
     )
