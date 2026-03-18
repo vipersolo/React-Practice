@@ -4,6 +4,8 @@ import {react,Component} from 'react';
 import Counter from './component/Counter';
 import Form from './component/Form'
 import List from './component/List'
+import Test from './component/Test';
+import Car from './component/Car';
 // import Todo from './component/Todo';
 // function App() {
 //   return (
@@ -37,9 +39,11 @@ class App extends Component{
   render(){
     return(
     <div className='App'>
-      <Counter />,
+      {/* <Counter />,
       <Form />
-      <List />
+      <List /> */}
+      <Test />
+      <Car /> 
     </div>
     // use <></> or div becuase return only one root element .
     )

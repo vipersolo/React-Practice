@@ -17,5 +17,5 @@ class List extends Component {
     );
   }
 }
-
+// div concept , main root div 1 only allowed , in map() each iteration also 1 allowed . childern for both allowed
 export default List;
