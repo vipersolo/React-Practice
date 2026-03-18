@@ -6,6 +6,7 @@ import Form from './component/Form'
 import List from './component/List'
 import Test from './component/Test';
 import Car from './component/Car';
+import Score from './component/Score'
 // import Todo from './component/Todo';
 // function App() {
 //   return (
@@ -44,6 +45,7 @@ class App extends Component{
       <List /> */}
       <Test />
       <Car /> 
+      <Score isScore = {60}/>
     </div>
     // use <></> or div becuase return only one root element .
     )
