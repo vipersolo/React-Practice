@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import {react,Component} from 'react';
-import Counter from './component/Counter';
-import Form from './component/Form'
-import List from './component/List'
-import Test from './component/Test';
-import Car from './component/Car';
-import Score from './component/Score'
-import Name from './functional_components/Name';
+import {Component} from 'react';
+import Form from './functional_components/Form'
+// import Counter from './component/Counter';
+// import List from './component/List'
+// import Test from './component/Test';
+// import Car from './component/Car';
+// import Score from './component/Score'---
+// import Name from './functional_components/Name';
 // import Todo from './component/Todo';
 // function App() {
 //   return (
@@ -44,10 +44,11 @@ class App extends Component{
       {/* <Counter />,
       <Form />
       <List /> */}
-      <Test />
+      {/* <Test />
       <Car /> 
       <Score isScore = {60}/>
-      <Name />
+      <Name /> */}
+      <Form />
     </div>
     // use <></> or div becuase return only one root element .
     )
