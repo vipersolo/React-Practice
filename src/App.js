@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import {Component} from 'react';
-import Form from './functional_components/Form'
+import FormData from './functional_components/FormData'
+// import Form from './functional_components/Form'
 // import Counter from './component/Counter';
 // import List from './component/List'
 // import Test from './component/Test';
@@ -48,7 +49,8 @@ class App extends Component{
       <Car /> 
       <Score isScore = {60}/>
       <Name /> */}
-      <Form />
+      {/* <Form /> */}
+      <FormData />
     </div>
     // use <></> or div becuase return only one root element .
     )
