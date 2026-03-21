@@ -7,6 +7,12 @@ function FormData() {
     email: "",
   });
 
+  const [myCar,setMyCar] = useState("BMW")
+
+  const changeCar = (event)=>{
+    setMyCar(event.target.value)
+  }
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -18,7 +24,7 @@ function FormData() {
 
   const onsend = (event) => {
     event.preventDefault();
-    alert(`name:${FormData.name}, age:${FormData.age}, email:${FormData.email}`);
+    alert(`name:${FormData.name}, age:${FormData.age}, email:${FormData.email}, car:${myCar}`);
   };
   return (
     <div>
@@ -36,6 +42,11 @@ function FormData() {
           <input type="email" name="email" onChange={handleChange}></input>
         </label>
         <br />
+        <select value={myCar} onChange={changeCar}>
+          <option value="maruti">Maruti</option>
+          <option value="BMW">BMW</option>
+          <option value="Bugatti">Bugatti</option>
+        </select>
         <button type="submit">send</button>
       </form>
     </div>

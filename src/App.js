@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import {Component} from 'react';
-import FormData from './functional_components/FormData'
+import Site from './navigationpage/Site';
+// import FormData from './functional_components/FormData'
 // import Form from './functional_components/Form'
 // import Counter from './component/Counter';
 // import List from './component/List'
@@ -50,7 +51,8 @@ class App extends Component{
       <Score isScore = {60}/>
       <Name /> */}
       {/* <Form /> */}
-      <FormData />
+      {/* <FormData /> */}
+      <Site />
     </div>
     // use <></> or div becuase return only one root element .
     )
