@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import {Component} from 'react';
 import Site from './navigationpage/Site';
 // import FormData from './functional_components/FormData'

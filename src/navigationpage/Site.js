@@ -5,7 +5,7 @@ import Home from './Home'
 import Contact from './Contact'
 import Team from './Team'
 import Company from './Company'
-
+import './Site.css'
 
 function Site() {
   return (
