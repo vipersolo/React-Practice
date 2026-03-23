@@ -2,7 +2,8 @@
 // import './App.css';
 import {Component} from 'react';
 
-import Item from './array_state/Item';
+// import Item from './array_state/Item';
+import Users from './array_state/Users';
 
 // import Child from './context/Child'
 // import UserContext from './context/UserContext';
@@ -64,7 +65,8 @@ class App extends Component{
       {/* <UserContext.Provider value={this.user}>
         <Child />
       </UserContext.Provider> */}
-      <Item />
+      {/* <Item /> */}
+      <Users />
     </div>
     // use <></> or div becuase return only one root element .
     )
