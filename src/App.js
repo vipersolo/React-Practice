@@ -1,7 +1,11 @@
 // import logo from './logo.svg';
 // import './App.css';
 import {Component} from 'react';
-import Site from './navigationpage/Site';
+
+
+import Info from './state_object_class/Info';
+// import Profile from './state_object/Profile';
+// import Site from './navigationpage/Site';
 // import FormData from './functional_components/FormData'
 // import Form from './functional_components/Form'
 // import Counter from './component/Counter';
@@ -52,7 +56,9 @@ class App extends Component{
       <Name /> */}
       {/* <Form /> */}
       {/* <FormData /> */}
-      <Site />
+      {/* <Site /> */}
+      {/* <Profile /> */}
+      <Info />
     </div>
     // use <></> or div becuase return only one root element .
     )
