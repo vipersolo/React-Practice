@@ -14,6 +14,10 @@ function Users() {
     setUsers(updatedUsers)
   }
 
+  const updateUser = (id)=>{
+    const updatedUserss = users.map((user)=>(user.id === id)?{...user,name:"updated name"}:user)
+    setUsers(updatedUserss)
+  }
   return (
     <div>
       <h2>User list</h2>
@@ -22,7 +26,7 @@ function Users() {
         <>
           <p key={index}>{user.name}</p>
           <button onClick={()=>(deleteUser(user.id))}>Delete</button>
-          <button>Update</button>
+          <button onClick={()=>(updateUser(user.id))}>Update</button>
         </>
       ))}
       <br />
