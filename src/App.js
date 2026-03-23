@@ -1,8 +1,11 @@
 // import logo from './logo.svg';
 // import './App.css';
 import {Component} from 'react';
-import Child from './context/Child'
-import UserContext from './context/UserContext';
+
+import Item from './array_state/Item';
+
+// import Child from './context/Child'
+// import UserContext from './context/UserContext';
 // import Info from './state_object_class/Info';
 // import Profile from './state_object/Profile';
 // import Site from './navigationpage/Site';
@@ -38,10 +41,10 @@ import UserContext from './context/UserContext';
 
 class App extends Component{
   
-  user = {
-    name:"antony",
-    age:20
-  }
+  // user = {
+  //   name:"antony",
+  //   age:20
+  // }
 
   render(){
     return(
@@ -58,9 +61,10 @@ class App extends Component{
       {/* <Site /> */}
       {/* <Profile /> */}
       {/* <Info /> */}
-      <UserContext.Provider value={this.user}>
+      {/* <UserContext.Provider value={this.user}>
         <Child />
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <Item />
     </div>
     // use <></> or div becuase return only one root element .
     )
