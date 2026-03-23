@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 import {Component} from 'react';
-
-
-import Info from './state_object_class/Info';
+import Child from './context/Child'
+import UserContext from './context/UserContext';
+// import Info from './state_object_class/Info';
 // import Profile from './state_object/Profile';
 // import Site from './navigationpage/Site';
 // import FormData from './functional_components/FormData'
@@ -37,11 +37,10 @@ import Info from './state_object_class/Info';
 // }
 
 class App extends Component{
-  state = {
-    name:"hi"
-  }
-  changeText =() => {
-    this.setState({name:"hi antony"})
+  
+  user = {
+    name:"antony",
+    age:20
   }
 
   render(){
@@ -58,7 +57,10 @@ class App extends Component{
       {/* <FormData /> */}
       {/* <Site /> */}
       {/* <Profile /> */}
-      <Info />
+      {/* <Info /> */}
+      <UserContext.Provider value={this.user}>
+        <Child />
+      </UserContext.Provider>
     </div>
     // use <></> or div becuase return only one root element .
     )
