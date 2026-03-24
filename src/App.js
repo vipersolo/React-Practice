@@ -2,10 +2,11 @@
 // import './App.css';
 import {Component} from 'react';
 
-import Useeffect from './useeffect/Useeffect';
+import UseEffectUnmount from './useeffect/UseEffectUnmount';
 
 
 
+// import Useeffect from './useeffect/Useeffect';
 // import Item from './array_state/Item';
 // import Users from './array_state/Users';
 // import Child from './context/Child'
@@ -70,7 +71,8 @@ class App extends Component{
       </UserContext.Provider> */}
       {/* <Item /> */}
       {/* <Users /> */}
-      <Useeffect />
+      {/* <Useeffect /> */}
+      <UseEffectUnmount />
     </div>
     // use <></> or div becuase return only one root element .
     )
