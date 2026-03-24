@@ -13,7 +13,8 @@ import {Component} from 'react';
 // import UserContext from './context/UserContext';
 // import Info from './state_object_class/Info';
 // import Profile from './state_object/Profile';
-import Site from './navigationpage/Site';
+// import Site from './navigationpage/Site';
+import UseEffectMultiple from './useeffect/UseEffectMultiple';
 // import FormData from './functional_components/FormData'
 // import Form from './functional_components/Form'
 // import Counter from './component/Counter';
@@ -63,7 +64,7 @@ class App extends Component{
       <Name /> */}
       {/* <Form /> */}
       {/* <FormData /> */}
-      <Site />
+      {/* <Site /> */}
       {/* <Profile /> */}
       {/* <Info /> */}
       {/* <UserContext.Provider value={this.user}>
@@ -73,6 +74,7 @@ class App extends Component{
       {/* <Users /> */}
       {/* <Useeffect /> */}
       {/* <UseEffectUnmount /> */}
+      <UseEffectMultiple />
     </div>
     // use <></> or div becuase return only one root element .
     )
