@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 
 function UseEffectUnmount() { // arrow or normal function can be used here
-  useEffect(() => {
+  useEffect(() => { //  // arrow function +  dependency []
+    //insdie arrow funciton ( function,return)
     // manual return so use ('{}') return logic different
-    const timer = setInterval(() => {
-      // setInterval takes function/refernce + time
+    const timer = setInterval(() => { // takes funciton/reference + timer in 1000 = 1 second
       console.log("tick");
     }, 1000);
 
