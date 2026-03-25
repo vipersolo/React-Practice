@@ -5,7 +5,8 @@ import {Component} from 'react';
 // import UseEffectMultiple from './useeffect/UseEffectMultiple'
 
 
-import TestCode from "./test/TestCode"
+// import TestCode from "./test/TestCode"
+import TodoReactLearn from './test/TodoReactLearn';
 // import UseEffectUnmount from './useeffect/UseEffectUnmount';
 
 
@@ -79,7 +80,7 @@ class App extends Component{
       {/* <Useeffect /> */}
       {/* <UseEffectUnmount /> */}
       {/* <UseEffectMultiple /> */}
-      <TestCode />
+      <TodoReactLearn />
     </div>
     // use <></> or div becuase return only one root element .
     )
